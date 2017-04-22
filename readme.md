@@ -18,9 +18,9 @@ The `replacement` string can include the following special replacement patterns:
 
 Pattern | Inserts
 ------- | -------
-$$ | Inserts a "$".
-$& | Inserts the matched substring.
-$n | Where n is a positive integer less than 100, inserts the nth parenthesized submatch string.
+`$$` | Inserts a "$".
+`$&` | Inserts the matched string.
+`$n` | Where n is a positive integer less than 100, inserts the nth parenthesized submatch string.
 
 ### Return value
 
