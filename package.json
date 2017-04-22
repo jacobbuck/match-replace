@@ -1,0 +1,25 @@
+{
+  "name": "match-replace",
+  "version": "0.0.1",
+  "description": "Retrieves a new string when matching a pattern.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jacobbuck/match-replace.git"
+  },
+  "keywords": [
+    "match",
+    "regexp",
+    "replace",
+    "string"
+  ],
+  "author": "Jacob Buck <buck.jacob@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jacobbuck/match-replace/issues"
+  },
+  "homepage": "https://github.com/jacobbuck/match-replace"
+}
