@@ -1,6 +1,6 @@
 {
   "name": "match-replace",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Retrieves a new string when matching a pattern.",
   "main": "index.js",
   "scripts": {
