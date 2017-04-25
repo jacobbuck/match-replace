@@ -5,7 +5,7 @@ var paramRegExp = /\$([\$&`']|\d{1,2})/g;
 module.exports = function matchReplace(str, regexp, replacement) {
   var matches = (str || '').match(regexp);
   if (!matches) return false;
-  return replacement.replace(paramRegexp, function(m, p1, i) {
+  return replacement.replace(paramRegExp, function(m, p1, i) {
     if (p1 === '$') return p1;
     if (p1 === '&') return matches[0];
     if (p1 === '`') return str.substr(0, i);
