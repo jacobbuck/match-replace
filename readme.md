@@ -2,7 +2,7 @@
 
 Retrieves a new string when matching a pattern.
 
-## Syntax
+## Usage
 
 ```js
 matchReplace(str, regexp, replacement)
