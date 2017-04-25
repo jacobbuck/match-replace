@@ -19,7 +19,7 @@ The `replacement` string can include the following special replacement patterns:
 Pattern | Inserts
 ------- | -------
 `$$` | Inserts a "$".
-`$&` | Inserts the matched string.
+`$&` | Inserts the matched substring.
 `` $` `` | Inserts the portion of the string that precedes the matched substring.
 `$'` | Inserts the portion of the string that follows the matched substring.
 `$n` | Where n is a positive integer less than 100, inserts the nth parenthesized submatch string.
