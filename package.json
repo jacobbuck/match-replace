@@ -4,7 +4,7 @@
   "description": "Retrieves a new string when matching a pattern.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
@@ -21,5 +21,9 @@
   "bugs": {
     "url": "https://github.com/jacobbuck/match-replace/issues"
   },
-  "homepage": "https://github.com/jacobbuck/match-replace"
+  "homepage": "https://github.com/jacobbuck/match-replace",
+  "devDependencies": {
+    "expect": "^1.20.2",
+    "mocha": "^3.3.0"
+  }
 }
